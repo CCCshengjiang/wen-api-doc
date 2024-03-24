@@ -7,6 +7,7 @@ module.exports = {
     title: "WEN-API 开发者文档",
     description: '为简化开发而生',
     // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+    /*base: '/api-doc/',*/
     head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
         ['link', {rel: 'icon', href: '/img/gif/wen-api.png'}], //favicons，资源放在public文件夹
         ['meta', {name: 'keywords', content: 'api,api开放平台,接口'}],
